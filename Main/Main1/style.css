@@ -117,9 +117,12 @@
 .icon__list--item i  {
     margin: 10px;
     font-size: 30px;
-
+    position: relative;
 }
 .icon__list :hover{
     background-color: #30dbe5;
     border-radius: 5px;
+}
+.icon__list{
+   padding-left: 0;
 }
