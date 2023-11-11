@@ -188,3 +188,23 @@
 .item-account:hover .menu__account{
     display: block;
 }
+
+.item-wrapper_link{
+    align-items: center;
+}
+
+.item-wrapper_link > a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: none ;
+    align-items: center;
+}
+
+.item_GT{
+    margin: 0px;
+    display: block;
+    align-items: center;
+    line-height: normal;
+}
+
