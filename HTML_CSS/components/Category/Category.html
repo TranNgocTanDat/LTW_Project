@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/components/Category/Style_Category.css " type="text/css">
+    <link rel="stylesheet" href="/components/Header/style_header.css">
+    <link rel="stylesheet" href="/components/Footer/style_footer.css">
+    <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="grid">
+            <div class="header__contact">
+                <div class="header__contact--left">
+                    <ul class="header__contact--list">
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a> baker@gmail.com
+                        </li>
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons contact__icons--phone">
+                                <i class="fa-solid fa-phone"></i>
+                            </a> 0922777999
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__contact--right">
+                    <ul class="header__contact--list">
+                        <li class="header__contact--icons">
+                            <a href="https://www.facebook.com/?locale=vi_VN" class="contact__icons">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+            <div class="header__menu">
+                <div class="header__menu--left">
+                    <ul class="header__menu--list">
+                        <a class="header__menu--item item-wrapper item__click" href="/components/Home/Home.html">
+                            <li class="header__menu--item">TRANG CHỦ</li>
+
+                        </a>
+                        <div class="header__menu--item item-wrapper ">
+                            <a class="header__menu--item item-wrapper item__Product" href="/components/Category/Category.html">
+                                <li class="header__menu--item">SẢN PHẨM</li>
+                            </a>
+                            <div class="menu__sp">
+                                <div class="menu__sp--item">BÁNH KEM</div>
+                                <div class="menu__sp--item">BÁNH NGỌT</div>
+                                <div class="menu__sp--item">PUDDING</div>
+                                
+                            </div>
+                        </div>
+                        <div class="header__menu--item item-wrapper">
+                            <a class="header__menu--item item-wrapper item__Product" href="/components/Sale/sale.html">
+
+                                <li class="header__menu--item">KHUYẾN MÃI</li>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="header__menu--logo">
+                    <img class="logo" src="../../assets/img/logo.png" alt="">
+                </div>
+                <div class="header__menu--right">D
+                    <ul class="header__menu--list">
+                        <div class="header__menu--item item-wrapper item-wrapper">
+                            <a class="header__menu--item item-wrapper item__Product" href="/components/Introduce/Introduce.html">
+                                <li class="header__menu--item item_GT">GIỚI THIỆU</li>
+                            </a>
+                        </div>
+                        <a class="header__menu--item item-wrapper item__click" href="/components/Cart/ShoppingCart.html">
+                                <li class="header__menu--item">GIỎ HÀNG</li>
+                        </a>
+
+                        <div class="header__menu--item item-wrapper">
+                            <a class="header__menu--item item-wrapper item__Product" href="/components/Login/Login.html">
+                                <li class="header__menu--item">TÀI KHOẢN</li>
+                            </a>
+                            <div class="menu__account">
+                                <div class="menu__account--item">ĐĂNG NHẬP</div>
+                                <div class="menu__account--item">ĐĂNG KÍ</div>
+
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="grid">
+            <div class="grid__row app__content">
+                <div class="grid__column-2">
+                    <nav class="category">
+                        <h3 class="category__heading">
+                            <i class="category__heading--icon fa-solid fa-list"></i> Danh mục
+                        </h3>
+
+                        <ul class="category__list">
+                            <li class="category__item category__item--active">
+                                <a class="category__item--link" href="#">Bánh Kem</a>
+                            </li>
+                            <li class="category__item">
+                                <a class="category__item--link" href="#">Bánh Ngọt</a>
+                            </li>
+                            <li class="category__item">
+                                <a class="category__item--link" href="#"> Bánh choco</a>
+                            </li>
+                            <li class="category__item">
+                                <a class="category__item--link" href="#">Bánh matcha</a>
+                            </li>
+                            <li class="category__item">
+                                <a class="category__item--link" href="#">Bánh kẹo</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+                <div class="grid__column-10">
+                    <div class="home-filter">
+                        <span class="home-filter__label">Sắp xếp theo</span>
+                        <button class="home-filter__btn btn">Phổ biến</button>
+                        <button class="home-filter__btn btn">Mới nhất</button>
+                        <button class="home-filter__btn btn">Bán chạy</button>
+
+                        <div class="select-input">
+                            <span class="select-input__label">Giá</span>
+                            <i class="select-input__icon fas fa-angle-down"></i>
+                            <ul class="select-input__list">
+                                <li class="select-input__item">
+                                    <a href="" class="select-input__link">Giá thấp đến cao</a>
+
+                                <li class="select-input__item">
+
+                                    <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home-filter__page">
+                            <span class="home-filter__page-num">
+                                <span class="home-filter__page-num--current">1</span>/5
+                            </span>
+
+                            <div class="home-filter__page-control">
+                                <a href="#" class="home-filter__page-btn">
+                                    <i class="home-filter__page-icon fas fa-angle-left"></i>
+
+                                </a>
+                                <a href="#" class="home-filter__page-btn">
+
+                                    <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-product">
+                        <div class="grid__row">
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                <i class="fas fa-check">Yêu thích</i>
+                            </div>
+                            <div class="home-product-item__sale-off">
+                                <span class="home-product-item__sale-off-percent">10%</span>
+                                <span class="home-product-item__sale-off-label">GIẢM</span>
+                            </div> -->
+                                </div>
+
+                            </div>
+                            <div class="grid__column-2-4">
+                                <div class="home-product-item">
+                                    <div class="home-product-item__img"
+                                        style="background-image: url(https://tse1.mm.bing.net/th?id=OIP.lGFwagGgQJfA-HtdflG1rAHaHU&pid=Api&P=0&h=220);">
+                                    </div>
+                                    <h4 class="home-product-item__name">Bánh Cupcake Queen chocolate hương vị đặc biệt
+                                    </h4>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price--old">300.000đ</span>
+                                        <span class="home-product-item__price--current">200.000đ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="icon-emty far fa-heart"></i>
+                                            <i class="icon-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="home-product-item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="home-product-item__origin">
+                                        <span class="home-product-item__brand">Whoo</span>
+                                        <div class="home-product-item__origin-name">TD</div>
+                                    </div>
+                                    <!-- <div class="home-product-item__favourite">
+                                    <i class="fas fa-check">Yêu thích</i>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">10%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div> -->
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="grid__full-width">
+            <div class="footer__main">
+                <div class="footer__main--contact footer__one">
+                    <h2 class="text">
+                        Baker Delight
+                    </h3>
+                    <ul class="footer__list ">
+                        <li class="footer__one--icon"><a href="" class="contact__icons">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </a>
+                            Đại Học Nông Lâm</li>
+                        <li class="footer__one--icon"><a href="" class="contact__icons">
+                                <i class="fa-solid fa-phone"></i>
+                            </a> 018181212</li>
+                        <li class="footer_one--icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a> baker@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__main--contact footer__two">
+                    <h2 class="text">
+                        Trang
+                    </h2>
+                    <ul class="footer__list">
+                        <li class="footer__two">Trang chủ</li>
+                        <li class="footer__two">Tài khoản</li>
+                        <li class="footer__two">Sản phẩm</li>
+                        <li class="footer__two">Khuyến mãi</li>
+                        <li class="footer__two">Giới thiệu</li>
+                        
+                    </ul>
+                </div>
+                <div class="footer__main--contact footer__three">
+                    <h2 class="text">
+                        Theo Dõi
+                    </h3>
+                    <ul class="footer__list">
+                        <li class="three__icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a> Facebook
+                        </li>
+                        <li class="three__icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a> Twitter
+                        </li>
+                        <li class="three__icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>Instagram
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__main--contact footer__four">
+                    <h2 class="text">
+                        Thời gian
+                    </h2>
+                    <ul class="footer__list">
+                        <li class="footer__four">Thứ 2: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 3: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 4: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 5: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 6: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 7: 9:00 - 17:00</li>
+                        <li class="footer__four">Chủ nhật: 9:00 - 14:00</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,339 @@
+#header{
+    width: 100%;
+    height: 146px;
+    
+}
+
+.header__contact{
+    width: 100%;
+    height: 45px;
+    background-color: #F9E9E9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__icons{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: 3px;
+    box-sizing: border-box;
+}
+
+.header__contact--left{
+    margin-left: 110px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    
+}
+
+.header__contact--list{
+    list-style: none;
+    margin: unset;
+}
+
+.header__contact--icons,
+.contact__icons{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.contact__icons--phone{
+    margin-left: 15px;
+}
+
+.header__contact--icons{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header__contact--right{
+    margin-right: 110px;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+.header__menu{
+    margin: auto;
+    width:90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__menu--list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__menu--item{
+    margin: 0 30px;
+    font-weight: 500;
+    font-size: large;
+    font: 700
+}
+.header__menu--logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+    object-fit: cover;
+    background-size: cover;
+
+}
+.header__menu--left{
+    width: 40%;
+}
+.header__menu--right{
+    width: 40%;
+}
+.item-wrapper{
+    margin: 0;
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.item-wrapper > li {
+    margin: auto;
+}
+
+
+
+
+   
+.item-wrapper:hover{
+    cursor: pointer;
+    background-color: #9c9c9c;
+} 
+
+
+.menu__sp{
+    position: absolute;
+    background: var(--white-color);
+    display: none;
+    top: 130px;
+    align-items: center;
+    border-top: 10px;
+}
+
+.menu__sp:hover{
+    cursor: pointer;
+    /* background-color: #791717; */
+    
+}
+
+
+.menu__sp--item{
+    width: 138.250px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    box-sizing: border-box;;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+.menu__sp--item:hover{
+    background: #9c9c9c;
+    cursor: pointer;
+}
+
+.item-sp:hover .menu__sp{
+    display: block;
+}
+
+
+.menu__account{
+    position: absolute;
+    background: var(--white-color);
+    top: 130px;
+    align-items: center;
+    display: none;
+    border-top: 10px;
+}
+
+.menu__account:hover{
+    cursor: pointer;
+}
+
+.menu__account--item{
+    width: 138.250px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    /* display: none; */
+    padding-left: 25px;
+    box-sizing: border-box;
+    align-items: center;
+
+  
+}
+
+.menu__account--item:hover{
+    background: #9c9c9c;
+    cursor: pointer;
+}
+
+.item-account:hover .menu__account{
+    display: block;
+}
+
+.item-wrapper_link{
+    align-items: center;
+}
+
+.item-wrapper_link > a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: none ;
+    align-items: center;
+}
+
+.item_GT{
+    margin: 0px;
+    display: block;
+    align-items: center;
+    line-height: normal;
+}
+
+
+
+.sale__poster{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.sale__poster--top{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/363681157_255987044117839_8802502928014108031_n.png?_nc_cat=105&ccb=1-7&_nc_sid=510075&_nc_ohc=4gL-1CmkvQoAX9BtoOt&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTEYB048TgbellbgYfnAseNi-tDM0e5uyVj_Vdaq5DdNQ&oe=657D34F9);
+    text-align: center;
+    background-size: cover;
+    border: 2px solid yellow ;
+
+}
+.sale__GT{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.ma1__center{
+    background-color: white;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    border-radius: 6px;
+    border: 2px solid black; 
+    margin-top: 10px;
+    display: flex;
+}
+.ma1__center--left{
+    width: 20%;
+    height: 150px;
+    float: left;
+    background-color: #3aecd4;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+.infor-Sale{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    color: azure;
+}
+.infor-Sale2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #9c9c9c;
+}
+.ma1__right{
+    width: 30%;
+    height: 150px;
+    float: right;
+    text-align: center;
+}
+.ma1__center--mid{
+    width: 50%;
+    height: 150px;
+    /* text-align: center; */
+}
+.item__ma{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+.item__dk{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+.item__hl{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: orange;
+}
+.center__list{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    width: 400px;
+}
+
+.center__list--item{
+    display: block;
+}
+.right__list--item{
+    float: right;
+    line-height: 50px;
+}
+
+.btn__calm{
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.btn__calm:hover{
+    color: orange;
+    background-color: white;
+}
+.btn__dk{
+    border-radius: 4px;
+    color: antiquewhite;
+    background-color:gray;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    
+}
+.btn__dk:hover{
+    color:gray;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,168 @@
+
+#container {
+    width:1150px ;
+    height: 400px;
+    margin: auto;
+    padding-top: 20px;
+}
+.tbl{
+    border: 5px solid #b1154a;
+}
+.table-bordered{
+    width: 800px;
+    float: left;
+    border-bottom: 2px solid black;
+    border-collapse:collapse;
+    background-color: antiquewhite;
+    border-left: 2px solid black;
+    
+
+}
+.table-bordered th{
+    border-bottom: 2px solid rgb(180, 179, 179);
+    border-right: 2px solid rgb(180, 179, 179);
+}
+
+.table-bordered tr{
+    border-right: 2px solid rgb(180, 179, 179);
+    height: 36px;
+}
+.table-bordered td{
+    border-right: 2px solid rgb(180, 179, 179);
+    border-bottom: 2px solid rgb(180, 179, 179) ;
+}
+.table_line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.logo{
+    
+    object-fit: cover;
+    
+}
+.table_line2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    
+
+}
+.btn__quantity--reduce{
+    border-radius: 8px 0px 0px 8px;
+}
+.btn__quantity--number{
+    border-radius: 0px;
+}
+.btn__quantity--increase{
+    border-radius: 0px 8px 8px 0px;
+}
+.btn__quantity--delete:hover{
+    background:white;
+    color:red;
+  }
+.btn__quantity--delete{
+    border-radius: 8px;
+    background:red;
+    color:#fff;
+    position:relative;
+    font-size:20px;
+    cursor:pointer;
+    transition:800ms ease all;
+  }
+.purchase_section {
+    float: right;
+    width:347px;
+    border-left:1px solid gray ;
+    background-color: antiquewhite;
+    border-right: 2px solid black;
+    border-collapse: collapse;
+
+}
+.purchase_table_header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-bottom: 2px solid gray;
+    background-color: antiquewhite;
+    font-weight: 640;
+    height: 30px;
+    margin-top: 7px;
+
+
+}
+
+
+/* .section_name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    border-bottom: 2px solid gray;
+    text-align: center;
+    background-color: antiquewhite;
+} */
+.order_Total{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+.order_Total_after_discount{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+.price_amount{
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: orange;
+}
+.price_amount_after_discount{
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: orange;
+}
+.btn__function--buy:hover{
+    background:white;
+    color:red;
+}
+.btn__function--buy{
+    border-radius: 2px;
+    background:red;
+    color:#fff;
+    position:relative;
+    font-size:20px;
+    cursor:pointer;
+    transition:800ms ease all;
+    width: 100%;
+    margin-top: 27px;
+
+}
+.widget-title{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.input-text{
+    width: 340px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.is--form-expand{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+
+}
+
+

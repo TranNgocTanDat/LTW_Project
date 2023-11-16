@@ -1,0 +1,47 @@
+.footer{
+    /* position: fixed;
+    bottom: 0; */
+    width: 100%;
+    height: 250px;
+    background-color: #F9E9E9;
+
+}
+
+.footer__main{
+    text-align: left;
+    display: flex;
+}
+
+.footer__main--contact{
+    margin: 20px 20px;
+    width: 25%;
+}
+
+.footer__one{
+    margin-left: 110px;
+    box-sizing: border-box;
+    
+}
+
+.footer__end{
+    margin-right: 110px;
+    box-sizing: border-box;
+}
+
+.footer__list{
+    list-style: none;
+    padding: unset;
+}
+
+.contact__icons{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: 3px;
+    box-sizing: border-box;
+}
+
+.footer__two{
+    
+    font-weight: 500;
+}
