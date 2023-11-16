@@ -7,6 +7,9 @@
     <title>Baker Delight</title>
 
     <link rel="stylesheet" href="./style_home.css">
+    <link rel="stylesheet" href="style_footer.css">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./style_header.css">
     <link rel="stylesheet" href="/components/Header/style_header.css">
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/fonts/fontawesome-free-6.4.2-web/css/all.min.css">
@@ -16,307 +19,215 @@
 </head>
 
 <body>
-    <div class="wrapper" id="wrapper">
-        <div class="header" id="header">
-            <div class="grid">
-                <div class="header__contact">
-                    <div class="header__contact--left">
-                        <ul class="header__contact--list">
-                            <li class="header__contact--icons">
-                                <a href="" class="contact__icons">
-                                    <i class="fa-solid fa-envelope"></i>
-                                </a> baker@gmail.com
-                            </li>
-                            <li class="header__contact--icons">
-                                <a href="" class="contact__icons contact__icons--phone">
-                                    <i class="fa-solid fa-phone"></i>
-                                </a> 0922777999
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="header__contact--right">
-                        <ul class="header__contact--list">
-                            <li class="header__contact--icons">
-                                <a href="" class="contact__icons">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="header__contact--icons">
-                                <a href="" class="contact__icons">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="header__contact--icons">
-                                <a href="" class="contact__icons">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+    <div class="header" id="header">
+        <div class="grid">
+            <div class="header__contact">
+                <div class="header__contact--left">
+                    <ul class="header__contact--list">
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a> baker@gmail.com
+                        </li>
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons contact__icons--phone">
+                                <i class="fa-solid fa-phone"></i>
+                            </a> 0922777999
+                        </li>
+                    </ul>
                 </div>
-                <div class="header__menu">
-                    <div class="header__menu--left">
-                        <ul class="header__menu--list">
-                            <div class="header__menu--item item-wrapper">
-                                <li class="header__menu--item">TRANG CHỦ</li>
-    
-                            </div>
-                            <div class="header__menu--item item-wrapper">
-                                <li class="header__menu--item">SẢN PHẨM</li>
-                            </div>
-                            <div class="header__menu--item item-wrapper">
-                                <li class="header__menu--item">KHUYẾN MÃI</li>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="header__menu--logo">
-                        <img class="logo" src="../../assets/img/logo.png" alt="">
-                    </div>
-                    <div class="header__menu--right">
-                        <ul class="header__menu--list">
-                            <a class="header__menu--item item-wrapper">
-                                <li class="header__menu--item">GIỚI THIỆU</li>
+
+                <div class="header__contact--right">
+                    <ul class="header__contact--list">
+                        <li class="header__contact--icons">
+                            <a href="https://www.facebook.com/?locale=vi_VN" class="contact__icons">
+                                <i class="fa-brands fa-facebook"></i>
                             </a>
-                            <a class="header__menu--item item-wrapper">
+                        </li>
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="header__contact--icons">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+            <div class="header__menu">
+                <div class="header__menu--left">
+                    <ul class="header__menu--list">
+                        <div class="header__menu--item item-wrapper">
+                            <li class="header__menu--item">TRANG CHỦ</li>
+
+                        </div>
+                        <div class="header__menu--item item-wrapper item-sp ">
+                            <li class="header__menu--item">SẢN PHẨM</li>
+                            <div class="menu__sp">
+                                <div class="menu__sp--item">BÁNH KEM</div>
+                                <div class="menu__sp--item">BÁNH NGỌT</div>
+                                <div class="menu__sp--item">PUDDING</div>
+                                
+                            </div>
+                        </div>
+                        <div class="header__menu--item item-wrapper">
+                            <li class="header__menu--item">KHUYẾN MÃI</li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="header__menu--logo">
+                    <img class="logo" src="../../assets/img/logo.png" alt="">
+                </div>
+                <div class="header__menu--right">
+                    <ul class="header__menu--list">
+                        <div class="header__menu--item item-wrapper item-wrapper_link">
+                            <a class="link" href="http://127.0.0.1:5500/components/container/Introduce.html">
+                                <li class="header__menu--item item_GT">GIỚI THIỆU</li>
+                            </a>
+                        </div>
+                        <div class="header__menu--item item-wrapper">
                                 <li class="header__menu--item">GIỎ HÀNG</li>
-                            </a>
-                            <a href="javascript:void(0)" class="header__menu--item item-wrapper" onclick="loadContent('../../pages/Login/Login.html')">
+                        </div>
+
+                        <div class="header__menu--item item-wrapper item-account">
                                 <li class="header__menu--item">TÀI KHOẢN</li>
-                            </a>
+                            <div class="menu__account">
+                                <div class="menu__account--item">ĐĂNG NHẬP</div>
+                                <div class="menu__account--item">ĐĂNG KÍ</div>
+
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+    </div>
+
+    <div class="container" id="container">
+        <div class="grid">
+            <div class="container__top">
+
+            </div> 
+            <div class="container__center">
+            <div class="container__center--top center__top">
+                <div class="center__top--life">
+
+                </div>
+                <div class="center__top--right top__right">
+                    <ul class="top__right--list right__list">
+                        <li class="right__list--title">TỪ SỰ NGỌT NGÀO, CHÚNG TÔI TẠO RA ĐAM MÊ</li>
+                        <li class="right__list--item item__1">Trải qua hơn 20 chắc chiu nhiều loại bánh kem trên thế thới, chúng tôi tạo ra những vị ngọt độc đáo cũng như mong muốn mang đến cho khách hàng nhưng chiếc bánh kem ngon nhất và đẹp mắt nhất. Bakas Delight khẳng định vị thế trên thị trường bằng những chiếc bánh chất lượng nhất.</li>
+                        <li class="right__list--item item__2">Chúng tôi tin rằng với sự chỉ chu mà Bakes Delight mang đến sẽ giúp khách hàng an tâm và hài lòng khi sử dụng bánh ở Bakes Delight.</li>
+                        <li class="right__list--btn">
+                            <button class="btn__ct">
+                                Xem thêm
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                </div>
+                <div class="container__bottom">
+                    <div class="container__bottom--left bottom__life">
+                        <ul class="bottom__life--list life__list">
+                            <li class="life__list--title">NHỮNG ĐẦU BẾP TRÀN ĐẦY NHIỆT HUYẾT</li>
+                            <li class="life__list--item">Trong suốt quá trình hoạt động và phát triển, các đầu bếp của Bakes Delight đã cùng xây dựng và nuôi dưỡng niềm đam mê dành cho sự mềm mại của bánh bông lan, sự ngọt ngào béo ngậy của kem sữa kết hợp thành một chiếc bánh kem toàn mỹ nhất đem đến cho người dùng.</li>
+                            <li class="lift__list--btn">
+                                <button class="btn__gy">
+                                    GÓP Ý CỦA BẠN VỚI BAKES DELIGHT
+                                </button>
+                            </li>
                         </ul>
                     </div>
-                </div>
-            </div>
-
     
-        </div>
-
-        <div class="container">
-            <div class="grid">
-                <div class="grid__row">
-                    <div class="grid__column-2">
-                        <nav class="category">
-                            <h3 class="category__heading">
-                                <i class="category__heading--icon fa-solid fa-list"></i> Danh mục
-                            </h3>
-
-                            <ul class="category__list">
-                                <li class="category__item category__item--active">
-                                    <a class="category__item--link" href="#">Bánh Kem</a>
-                                </li>
-                                <li class="category__item">
-                                    <a class="category__item--link"  href="#">Bánh Ngọt</a>
-                                </li>
-                                <li class="category__item">
-                                    <a class="category__item--link" href="#"> Bánh choco</a>
-                                </li>
-                                <li class="category__item">
-                                    <a class="category__item--link" href="#">Bánh matcha</a>
-                                </li>
-                                <li class="category__item">
-                                    <a class="category__item--link" href="#">Bánh kẹo</a>
-                                </li>
-                            </ul>
-
-                        </nav>
-
-                    </div>
-                    <div class="grid__column-10">
-                        <div class="home-filter">
-                            <span class="home-filter__label">Sắp xếp theo</span>
-                            <button class="btn">Phổ biến</button>
-                            <button class="btn">Mới nhất</button>
-                            <button class="btn">Bán chạy</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container__top">
-                <img class="img__bakgor" src="img/img__bekes.jpg" alt="">
-            </div>
-            <div class="container__center">
-                <div class="container__center--top">
-                    <h3>BAKES DELIGHT</h3>
-                </div>
-                <div class="container__center--mid center__mid">
-                    <div class="center__mid--discount99 discount99">
-                        <div class="discount99__infomation">
-                            <ul class="discount99__infomation__list discount99__list">
-                                <li class="discount99__list--1">MÃ GIẢM GIÁ 99K</li>
-                                <li class="discount99__List--2">Giảm 99k cho đơn hàng từ 500k</li>
-                            </ul>
-                        </div>
-                        <div class="discount99__button">
-                            <div class="discount99__button--copy">
-                                <h3 class="copy">Sao chép</h3>
-                            </div>
-                            <div class="discount99__button--detail">
-                                <h3 class="detail">Xem chi tiết</h3>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="center__mid--discount199 discount199">
-                        <div class="discount199__infomation">
-                            <ul class="discount199__infomation__list discount199__list">
-                                <li class="discount99__list--1">MÃ GIẢM GIÁ 199K</li>
-                                <li class="discount99__List--2">Giảm 199k cho đơn hàng từ 1000k</li>
-                            </ul>
-                        </div>
-                        <div class="discount199__button">
-                            <div class="discount199__button--copy">
-                                <h3 class="copy">Sao chép</h3>
-                            </div>
-                            <div class="discount1   99__button--detail">
-                                <h3 class="detail">Xem chi tiết</h3>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="center__mid--discount299 discount299">
-                        <div class="discount299__infomation">
-                            <ul class="discount299__infomation__list discount299__list">
-                                <li class="discount299__list--1">MÃ GIẢM GIÁ 299K</li>
-                                <li class="discount299__List--2">Giảm 299k cho đơn hàng từ 1500k</li>
-                            </ul>
-                        </div>
-                        <div class="discount299__button">
-                            <div class="discount299__button--copy">
-                                <h3 class="copy">Sao chép</h3>
-                            </div>
-                            <div class="discount299__button--detail">
-                                <h3 class="detail">Xem chi tiết</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="center__bottom">
-                    <div class="center__bottom--topic topic">
-                        <h3 class="topic">
-                            <a href="" class="topic__icon">
-                                <i class="fa-light fa-fire"></i>
-                            </a>
-                            Bánh ngọt
-                        </h3>
-                    </div>
-                    <div class="center__sp">
-                        <div class="center__sp--sp1 sq1">
-                            <ul class="sp1__list">
-                                <li class="sp1__list--img">
-                                    <img class="img__cake1" src="" alt="">
-                                </li>
-                                <li class="sp1__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp1__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="center__sp--sp2 sq2">
-                            <ul class="sp2__list">
-                                <li class="sp2__list--img">
-                                    <img class="img__cake2" src="" alt="">
-                                </li>
-                                <li class="sp2__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp2__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="center__sp--sp3 sq3">
-                            <ul class="sp3__list">
-                                <li class="sp3__list--img">
-                                    <img class="img__cake3" src="" alt="">
-                                </li>
-                                <li class="sp3__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp3__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="center__sp--sp4 sq4">
-                            <ul class="sp4__list">
-                                <li class="sp4__list--img">
-                                    <img class="img__cake4" src="" alt="">
-                                </li>
-                                <li class="sp4__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp4__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="center__sp--sp5 sq5">
-                            <ul class="sp5__list">
-                                <li class="sp5__list--img">
-                                    <img class="img__cake5" src="" alt="">
-                                </li>
-                                <li class="sp5__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp5__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="center__sp--sp6 sq6">
-                            <ul class="sp6__list">
-                                <li class="sp6__list--img">
-                                    <img class="img__cake6" src="" alt="">
-                                </li>
-                                <li class="sp6__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp6__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="center__sp--sp7 sq7">
-                            <ul class="sp7__list">
-                                <li class="sp7__list--img">
-                                    <img class="img__cake7" src="" alt="">
-                                </li>
-                                <li class="sp7__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp7__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="center__sp--sp8 sq8">
-                            <ul class="sp8__list">
-                                <li class="sp8__list--img">
-                                    <img class="img__cake8" src="" alt="">
-                                </li>
-                                <li class="sp8__list--name">
-                                    Tên bánh
-                                </li>
-                                <li class="sp8__list--price">
-                                    1111
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                    <div class="container__bottom--right">
             </div>
         </div>
-
-        <div class="footer">
-
-        </div>
-
     </div>
+    </div>
+   
+    <div class="footer" id="footer">
+        <div class="grid__full-width">
+            <div class="footer__main">
+                <div class="footer__main--contact footer__one">
+                    <h2 class="text">
+                        Baker Delight
+                    </h3>
+                    <ul class="footer__list ">
+                        <li class="footer__one--icon"><a href="" class="contact__icons">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </a>
+                            Đại Học Nông Lâm</li>
+                        <li class="footer__one--icon"><a href="" class="contact__icons">
+                                <i class="fa-solid fa-phone"></i>
+                            </a> 018181212</li>
+                        <li class="footer_one--icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a> baker@gmail.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__main--contact footer__two">
+                    <h2 class="text">
+                        Trang
+                    </h2>
+                    <ul class="footer__list">
+                        <li class="footer__two">Trang chủ</li>
+                        <li class="footer__two">Tài khoản</li>
+                        <li class="footer__two">Sản phẩm</li>
+                        <li class="footer__two">Khuyến mãi</li>
+                        <li class="footer__two">Giới thiệu</li>
+                        
+                    </ul>
+                </div>
+                <div class="footer__main--contact footer__three">
+                    <h2 class="text">
+                        Theo Dõi
+                    </h3>
+                    <ul class="footer__list">
+                        <li class="three__icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a> Facebook
+                        </li>
+                        <li class="three__icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a> Twitter
+                        </li>
+                        <li class="three__icon">
+                            <a href="" class="contact__icons">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>Instagram
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__main--contact footer__four">
+                    <h2 class="text">
+                        Thời gian
+                    </h2>
+                    <ul class="footer__list">
+                        <li class="footer__four">Thứ 2: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 3: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 4: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 5: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 6: 9:00 - 17:00</li>
+                        <li class="footer__four">Thứ 7: 9:00 - 17:00</li>
+                        <li class="footer__four">Chủ nhật: 9:00 - 14:00</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
