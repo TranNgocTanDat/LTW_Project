@@ -61,6 +61,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: azure;
     
 }
 
@@ -190,9 +191,9 @@
 }
 #container {
     width:1150px ;
-    height: 350px;
+    height: 400px;
     margin: auto;
-    padding-top: 110px;
+    padding-top: 20px;
 }
 .tbl{
     border: 5px solid #b1154a;
@@ -203,6 +204,7 @@
     border-bottom: 2px solid black;
     border-collapse:collapse;
     background-color: antiquewhite;
+    border-left: 2px solid black;
     
 
 }
@@ -217,6 +219,7 @@
 }
 .table-bordered td{
     border-right: 2px solid rgb(180, 179, 179);
+    border-bottom: 2px solid rgb(180, 179, 179) ;
 }
 .table_line{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -224,6 +227,11 @@
 
 }
 
+.logo{
+    
+    object-fit: cover;
+    
+}
 .table_line2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
@@ -256,19 +264,22 @@
   }
 .purchase_section {
     float: right;
-    width:349px;
+    width:350px;
     border-left:1px solid gray ;
     background-color: antiquewhite;
+    border-right: 2px solid black;
+    border-collapse: collapse;
 
 }
 .purchase_table_header{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
+    font-size: 25px;
     border-bottom: 2px solid gray;
-    text-align: center;
     background-color: antiquewhite;
-    font-weight: 600;
+    font-weight: 640;
+    height: 30px;
+    margin-top: 7px;
 
 
 }
@@ -331,7 +342,7 @@
     font-weight: 700;
 }
 .input-text{
-    width: 343px;
+    width: 340px;
     margin-bottom: 20px;
     text-align: center;
 }
